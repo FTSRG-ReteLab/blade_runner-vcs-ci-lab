@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTachoGraph" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-02-19T15:18:46" hostname="ubuntu" time="0.024">
+  <properties/>
+  <testcase name="testTachoGraphIsNotEmpty" classname="TestTachoGraph" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
