@@ -28,6 +28,9 @@ public class TrainUserImpl implements TrainUser {
 		int temp = joystickPosition;
 		if(temp == 0){
 			System.out.println("zero");
+		}
+		else if(temp == 1){
+			System.out.printf("one");
 		}else{
 
 		}
