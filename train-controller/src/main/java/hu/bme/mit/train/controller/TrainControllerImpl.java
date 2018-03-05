@@ -42,10 +42,11 @@ public class TrainControllerImpl implements TrainController {
 	}
 
 	@Override
-	public void setJoystickPosition(int joystickPosition) {
-		this.step = joystickPosition;
-		followSpeed();
-		enforceSpeedLimit();
+	public void setJoystickPosition(int joystickPosition) throws InterruptedException {
+		this.step += joystickPosition;
+        followSpeed();
+        enforceSpeedLimit();
+        Thread.sleep(1000);
 	}
 
 
